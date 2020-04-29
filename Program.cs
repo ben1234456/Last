@@ -196,7 +196,7 @@ namespace Snake
 
                 Console.SetCursorPosition(food.col, food.row);
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.Write("@");
+                Console.Write("c");
 
                 sleepTime -= 0.01;
 
