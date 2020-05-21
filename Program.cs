@@ -22,6 +22,7 @@ namespace Snake
     {
         static void Main(string[] args)
         {
+			int s = 10;
             byte right = 0;
             byte left = 1;
             byte down = 2;
@@ -201,6 +202,8 @@ namespace Snake
                 sleepTime -= 0.01;
 
                 Thread.Sleep((int)sleepTime);
+				
+				
             }
         }
     }
